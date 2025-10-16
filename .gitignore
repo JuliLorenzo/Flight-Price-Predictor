@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos (NO versionar archivos grandes)
+data/
+!data/README.md
+
+# Modelos y artefactos
+models/
+*.pkl
+*.joblib
+
+# OS / Editor
+.DS_Store
+.vscode/
